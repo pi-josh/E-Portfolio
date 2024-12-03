@@ -1,0 +1,52 @@
+/* Pre-defined variables */
+:root {
+  /* Colors */
+  --color-bg: #ffffff;
+  --color-text: #333333;
+  --color-accent: #808080;
+  --color-border: #e0e0e0;
+  --color-hover: #f7f7f7;
+
+  /* Typography */
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+
+  /* Font Sizes */
+  --font-size-heading: 2rem;
+  --font-size-subheading: 1.5rem;
+  --font-size-body: 1rem;
+  --font-size-caption: 0.75rem;
+
+  /* Line Height */
+  --line-height-body: 1.6;
+
+  /* Spacing */
+  --spacing-section: 2rem;
+  --spacing-card: 1.5rem;
+
+  /* Layout */
+  --max-width: 1200px;
+  --grid-gap: 1.5rem;
+
+  /* Button */
+  --button-padding: 0.75rem 1.5rem;
+  --button-radius: 5px;
+}
+
+* {
+    line-height: var(--line-height-body);
+}
+
+body {
+    background: var(--color-bg);
+}
+
+/* Navbar */
+.navbar {
+    top: 0;
+    height: 120px;
+}
+
+.navbar-brand {
+    font-size: var(--font-size-heading);
+}
