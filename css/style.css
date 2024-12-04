@@ -93,24 +93,30 @@ body {
 }
 
 .header-profile-container {
-  border: 3px solid black;
+  gap: 50px;
+  margin-bottom: 50px;
 }
 
 .profile-pic {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   border: 3px solid black;
 }
 
-.header-container {
-  border: 3px solid red;
+.emoji {
+  display: inline-block;
+  font-size: 1.2em;
+  border-radius: 5px;
+  background-color: #f3f4f6;
+  padding: 0.2em 0.4em;
+  margin: 0.3em 0.3em;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.profile-pic-container {
-  border: 3px solid blue;
+.emoji:hover {
+  background-color: #4f4f4f;
+  color: white;
+  transform: rotate(-10deg) scale(1.2); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-.intro-section-container {
-  border: 3px solid green;
-  padding-bottom: 0px;
-}
