@@ -1,52 +1,116 @@
 /* Pre-defined variables */
 :root {
-  /* Colors */
-  --color-bg: #ffffff;
-  --color-text: #333333;
-  --color-accent: #808080;
-  --color-border: #e0e0e0;
-  --color-hover: #f7f7f7;
-
-  /* Typography */
-  --font-heading: "Montserrat", sans-serif;
-  --font-body: "Open Sans", sans-serif;
-
-  /* Font Sizes */
-  --font-size-heading: 2rem;
-  --font-size-subheading: 1.5rem;
-  --font-size-body: 1rem;
-  --font-size-caption: 0.75rem;
-
-  /* Line Height */
-  --line-height-body: 1.6;
-
-  /* Spacing */
-  --spacing-section: 2rem;
-  --spacing-card: 1.5rem;
-
-  /* Layout */
-  --max-width: 1200px;
-  --grid-gap: 1.5rem;
-
-  /* Button */
-  --button-padding: 0.75rem 1.5rem;
-  --button-radius: 5px;
-}
+    /* Colors */
+    --color-bg: #ffffff; /* Default background */
+    --color-text: #333333; /* Main text color */
+    --color-accent: #808080; /* Accent text or subtle highlights */
+    --color-border: #e0e0e0; /* Borders or dividers */
+    --color-hover: #f7f7f7; /* Hover effects */
+    --color-header-bg: #f0f0f0; /* Header section background */
+    --color-section-bg: #f9f9f9; /* Section background */
+    --color-highlight: #ffcc00; /* Highlight color for key points */
+    --color-footer-bg: #444444; /* Footer background */
+    --color-footer-text: #ffffff; /* Footer text color */
+  
+    /* Typography */
+    --font-heading: "Montserrat", sans-serif; /* Heading font */
+    --font-body: "Open Sans", sans-serif; /* Body text font */
+    --font-code: "Courier New", monospace; /* Code blocks or file links */
+  
+    /* Font Sizes */
+    --font-size-heading: 2.5rem; /* For main headings */
+    --font-size-subheading: 1.75rem; /* For subheadings */
+    --font-size-body: 1rem; /* Regular body text */
+    --font-size-caption: 0.85rem; /* Small captions or labels */
+    --font-size-code: 0.9rem; /* Code or file text */
+  
+    /* Line Height */
+    --line-height-body: 1.6; /* Comfortable reading line height */
+    --line-height-heading: 1.2; /* Compact headings */
+  
+    /* Spacing */
+    --spacing-section: 3rem; /* Space between sections */
+    --spacing-card: 1.5rem; /* Space inside content cards */
+    --spacing-heading: 2rem; /* Space below headings */
+    --spacing-inline: 0.75rem; /* Space between inline elements */
+  
+    /* Layout */
+    --max-width: 1200px; /* Max width for the main content area */
+    --grid-gap: 1.5rem; /* Gap between grid items */
+    --header-height: 80px; /* Fixed header height */
+  
+    /* Button */
+    --button-padding: 0.75rem 1.5rem; /* Button padding */
+    --button-radius: 5px; /* Rounded corners for buttons */
+    --button-bg: #007bff; /* Default button background */
+    --button-text: #ffffff; /* Button text color */
+    --button-hover-bg: #0056b3; /* Button hover background */
+  
+    /* Section-Specific */
+    --section-header-bg: #e6f7ff; /* Header background for each section */
+    --section-highlight-bg: #ffffcc; /* Highlight important text */
+    --section-border-radius: 10px; /* Rounded corners for sections */
+  
+    /* Shadows */
+    --box-shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    --box-shadow-medium: 0 4px 10px rgba(0, 0, 0, 0.2); /* Medium shadow */
+  
+    /* Miscellaneous */
+    --transition-default: 0.3s ease-in-out; /* Default transition effect */
+    --z-index-header: 100; /* Header stays on top */
+    --z-index-modal: 200; /* For modals or popups */
+  }
+  
 
 * {
-    line-height: var(--line-height-body);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: var(--line-height-body);
 }
 
 body {
-    background: var(--color-bg);
+  height: 100%;
+  background: var(--color-bg);
+}
+
+/* Centering a div */
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Navbar */
-.navbar {
-    top: 0;
-    height: 120px;
+.navbar-brand {
+  font-family: var(--font-body);
+  font-size: var(--font-size-heading);
 }
 
-.navbar-brand {
-    font-size: var(--font-size-heading);
+/* Home Section */
+.home-section-container {
+    min-height: 100vh;
+}
+
+.header-profile-container {
+  border: 3px solid black;
+}
+
+.profile-pic {
+  width: 500px;
+  height: 500px;
+  border: 3px solid black;
+}
+
+.header-container {
+  border: 3px solid red;
+}
+
+.profile-pic-container {
+  border: 3px solid blue;
+}
+
+.intro-section-container {
+  border: 3px solid green;
+  padding-bottom: 0px;
 }
