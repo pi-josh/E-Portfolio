@@ -1,66 +1,65 @@
 /* Pre-defined variables */
 :root {
-    /* Colors */
-    --color-bg: #ffffff; /* Default background */
-    --color-text: #333333; /* Main text color */
-    --color-accent: #808080; /* Accent text or subtle highlights */
-    --color-border: #e0e0e0; /* Borders or dividers */
-    --color-hover: #f7f7f7; /* Hover effects */
-    --color-header-bg: #f0f0f0; /* Header section background */
-    --color-section-bg: #f9f9f9; /* Section background */
-    --color-highlight: #ffcc00; /* Highlight color for key points */
-    --color-footer-bg: #444444; /* Footer background */
-    --color-footer-text: #ffffff; /* Footer text color */
-  
-    /* Typography */
-    --font-heading: "Montserrat", sans-serif; /* Heading font */
-    --font-body: "Open Sans", sans-serif; /* Body text font */
-    --font-code: "Courier New", monospace; /* Code blocks or file links */
-  
-    /* Font Sizes */
-    --font-size-heading: 2.5rem; /* For main headings */
-    --font-size-subheading: 1.75rem; /* For subheadings */
-    --font-size-body: 1rem; /* Regular body text */
-    --font-size-caption: 0.85rem; /* Small captions or labels */
-    --font-size-code: 0.9rem; /* Code or file text */
-  
-    /* Line Height */
-    --line-height-body: 1.6; /* Comfortable reading line height */
-    --line-height-heading: 1.2; /* Compact headings */
-  
-    /* Spacing */
-    --spacing-section: 3rem; /* Space between sections */
-    --spacing-card: 1.5rem; /* Space inside content cards */
-    --spacing-heading: 2rem; /* Space below headings */
-    --spacing-inline: 0.75rem; /* Space between inline elements */
-  
-    /* Layout */
-    --max-width: 1200px; /* Max width for the main content area */
-    --grid-gap: 1.5rem; /* Gap between grid items */
-    --header-height: 80px; /* Fixed header height */
-  
-    /* Button */
-    --button-padding: 0.75rem 1.5rem; /* Button padding */
-    --button-radius: 5px; /* Rounded corners for buttons */
-    --button-bg: #007bff; /* Default button background */
-    --button-text: #ffffff; /* Button text color */
-    --button-hover-bg: #0056b3; /* Button hover background */
-  
-    /* Section-Specific */
-    --section-header-bg: #e6f7ff; /* Header background for each section */
-    --section-highlight-bg: #ffffcc; /* Highlight important text */
-    --section-border-radius: 10px; /* Rounded corners for sections */
-  
-    /* Shadows */
-    --box-shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
-    --box-shadow-medium: 0 4px 10px rgba(0, 0, 0, 0.2); /* Medium shadow */
-  
-    /* Miscellaneous */
-    --transition-default: 0.3s ease-in-out; /* Default transition effect */
-    --z-index-header: 100; /* Header stays on top */
-    --z-index-modal: 200; /* For modals or popups */
-  }
-  
+  /* Colors */
+  --color-bg: #ffffff; /* Default background */
+  --color-text: #333333; /* Main text color */
+  --color-accent: #808080; /* Accent text or subtle highlights */
+  --color-border: #e0e0e0; /* Borders or dividers */
+  --color-hover: #f7f7f7; /* Hover effects */
+  --color-header-bg: #f0f0f0; /* Header section background */
+  --color-section-bg: #f9f9f9; /* Section background */
+  --color-highlight: #ffcc00; /* Highlight color for key points */
+  --color-footer-bg: #444444; /* Footer background */
+  --color-footer-text: #ffffff; /* Footer text color */
+
+  /* Typography */
+  --font-heading: "Montserrat", sans-serif; /* Heading font */
+  --font-body: "Open Sans", sans-serif; /* Body text font */
+  --font-code: "Courier New", monospace; /* Code blocks or file links */
+
+  /* Font Sizes */
+  --font-size-heading: 2.5rem; /* For main headings */
+  --font-size-subheading: 1.75rem; /* For subheadings */
+  --font-size-body: 1rem; /* Regular body text */
+  --font-size-caption: 0.85rem; /* Small captions or labels */
+  --font-size-code: 0.9rem; /* Code or file text */
+
+  /* Line Height */
+  --line-height-body: 1.6; /* Comfortable reading line height */
+  --line-height-heading: 1.2; /* Compact headings */
+
+  /* Spacing */
+  --spacing-section: 3rem; /* Space between sections */
+  --spacing-card: 1.5rem; /* Space inside content cards */
+  --spacing-heading: 2rem; /* Space below headings */
+  --spacing-inline: 0.75rem; /* Space between inline elements */
+
+  /* Layout */
+  --max-width: 1200px; /* Max width for the main content area */
+  --grid-gap: 1.5rem; /* Gap between grid items */
+  --header-height: 80px; /* Fixed header height */
+
+  /* Button */
+  --button-padding: 0.75rem 1.5rem; /* Button padding */
+  --button-radius: 5px; /* Rounded corners for buttons */
+  --button-bg: #007bff; /* Default button background */
+  --button-text: #ffffff; /* Button text color */
+  --button-hover-bg: #0056b3; /* Button hover background */
+
+  /* Section-Specific */
+  --section-header-bg: #e6f7ff; /* Header background for each section */
+  --section-highlight-bg: #ffffcc; /* Highlight important text */
+  --section-border-radius: 10px; /* Rounded corners for sections */
+
+  /* Shadows */
+  --box-shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+  --box-shadow-medium: 0 4px 10px rgba(0, 0, 0, 0.2); /* Medium shadow */
+
+  /* Miscellaneous */
+  --transition-default: 0.3s ease-in-out; /* Default transition effect */
+  --z-index-header: 100; /* Header stays on top */
+  --z-index-modal: 200; /* For modals or popups */
+}
 
 * {
   margin: 0;
@@ -89,7 +88,7 @@ body {
 
 /* Home Section */
 .home-section-container {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .header-profile-container {
@@ -110,13 +109,78 @@ body {
   background-color: #f3f4f6;
   padding: 0.2em 0.4em;
   margin: 0.3em 0.3em;
-  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .emoji:hover {
   background-color: #4f4f4f;
   color: white;
-  transform: rotate(-10deg) scale(1.2); 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transform: rotate(-10deg) scale(1.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Content Navigation Section */
+.content-section-container {
+  background: linear-gradient(to bottom, white 0%, var(--color-accent) 75%);
+  transition: background-color 0.3s ease;
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+
+.content-heading-container {
+  margin-bottom: 50px;
+}
+
+.content-heading {
+  color: var(--color-text);
+  font-weight: bold;
+}
+
+.content-cards-container {
+  gap: 100px;
+}
+
+.card {
+  width: 30rem;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover-wrapper:hover .card {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-hover-wrapper:hover ~ .content-section-container {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    var(--color-accent) 100%
+  );
+}
+
+.web-dev-nav, .data-admin-nav {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.card-hover-wrapper:hover .card-title,
+.card-hover-wrapper:hover .card-text {
+  color: var(--color-text-dark);
+
+  /* Responsive card alignment */
+  @media (max-width: 768px) {
+    .content-cards-container {
+      gap: 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+}
