@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <!-- TODO: Add page icon -->
     <link rel="icon" type="image/png" href="" />
 
@@ -89,7 +89,7 @@
           <!-- Profile Picture Sub-section -->
           <div class="profile-pic-container mt-4 mt-md-0">
             <img
-              src="/assets/image/profile-picture.jpg"
+              src="../assets/image/profile-picture.jpg"
               alt="Profile Picture in a Corporate Attire"
               class="profile-pic img-fluid rounded-circle mx-auto d-block"
             />
@@ -112,43 +112,62 @@
     </div>
 
     <!-- Content Navigation Section -->
-<div class="content-section-container">
-  <div class="content-heading-container text-center">
-    <h1 class="content-heading">CONTENT</h1>
-  </div>
-  <div class="content-cards-container d-flex flex-wrap justify-content-center">
-    <a class="web-dev-nav card-hover-wrapper" href="./web_dev.html">
-      <div id="web-dev" class="card web-dev-card">
-        <img
-          src="/assets/image/web-dev-black-icon.svg"
-          class="card-img-top"
-          alt="Web Development Icon"
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title">Web Development</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-        </div>
+    <div class="content-section-container">
+      <div class="content-heading-container text-center">
+        <h1 class="content-heading">CONTENT</h1>
       </div>
-    </a>
-    <a class="data-admin-nav card-hover-wrapper" href="./data_admin.html">
-      <div id="data-admin" class="card data-admin-card">
-        <img
-          src="/assets/image/data-admin-black-icon.svg"
-          class="card-img-top"
-          alt="Data Administration Icon"
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title">Data Administration</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-        </div>
+      <div
+        class="content-cards-container d-flex flex-wrap justify-content-center"
+      >
+        <!-- Web Development Card -->
+        <a class="web-dev-nav card-hover-wrapper" href="./web_dev.html">
+          <div id="web-dev" class="card">
+            <!-- Default Image -->
+            <img
+              src="../assets/image/web-dev-black-icon.svg"
+              class="card-img-top default-image"
+              alt="Web Development Icon"
+            />
+            <!-- Hover Image -->
+            <img
+              src="../assets/image/web-dev-white-icon.svg"
+              class="card-img-top hover-image"
+              alt="Web Development Hover Icon"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">
+                This page will showcase my academic requirement submissions from
+                the Web Development course.
+              </p>
+            </div>
+          </div>
+        </a>
+        <!-- Data Administration Card -->
+        <a class="data-admin-nav card-hover-wrapper" href="./data_admin.html">
+          <div id="data-admin" class="card">
+            <!-- Default Image -->
+            <img
+              src="../assets/image/data-admin-black-icon.svg"
+              class="card-img-top default-image"
+              alt="Data Administration Icon"
+            />
+            <!-- Hover Image -->
+            <img
+              src="../assets/image/data-admin-white-icon.svg"
+              class="card-img-top hover-image"
+              alt="Data Administration Hover Icon"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Data Administration</h5>
+              <p class="card-text">
+                This page will showcase my academic requirement submissions from
+                the Data Administration course.
+              </p>
+            </div>
+          </div>
+        </a>
       </div>
-    </a>
-  </div>
-</div>
-
+    </div>
   </body>
 </html>
