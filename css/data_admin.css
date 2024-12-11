@@ -97,17 +97,43 @@ body {
   min-height: 100vh;
 }
 
+.home-heading {
+  color: var(--color-text);
+  font-weight: bold;
+  font-size: 125px;
+}
+
 /* Midterm Section */
 .midterm-section-container {
   background: linear-gradient(to bottom, #f0f0f0, #808080, #4f4f4f);
   transition: background-color 0.3s ease;
-  padding-bottom: 80px;
+  padding: 80px 0px;
+  height: 600px; /* TO BE REMOVED */
+}
+
+.midterm-heading-container {
+  margin-bottom: 50px;
+}
+
+.midterm-heading {
+  color: var(--color-text);
+  font-weight: bold;
 }
 
 /* Final Section */
 .final-section-container {
   background: linear-gradient(to bottom, #4f4f4f, #1a1a1a, #000000);
   transition: background-color 0.3s ease;
+  height: 600px; /* TO BE REMOVED */
+}
+
+.final-heading-container {
+  margin-bottom: 60px;
+}
+
+.final-heading {
+  color: #eae8e8;
+  font-weight: bold;
 }
 
 /* Footer */
