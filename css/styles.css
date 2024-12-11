@@ -86,6 +86,11 @@ body {
   font-size: var(--font-size-heading);
 }
 
+.navbar-icon {
+  height: 25px;
+  width: 25px;
+}
+
 /* Home Section */
 .home-section-container {
   background: linear-gradient(to bottom, #ffffff, #f0f0f0);
@@ -321,6 +326,8 @@ body {
   height: 25px;
 }
 
+
+/* Footer */
 .footer-section {
   background: #000;
 }
