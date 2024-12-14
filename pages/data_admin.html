@@ -93,7 +93,16 @@
             <!-- Row 1 -->
             <tr>
               <td>
-                <div class="card">
+                <div
+                  class="card"
+                  card-name="About Me"
+                  card-description="This activity lets me introduce myself with a photo, three
+                    words that describe me, a message for my teacher, and three
+                    things I'm excited to learn this year."
+                  card-full-image="../assets/image/data-admin-reqs/assignments/about-me-full-img.png"
+                  card-output-image="../assets/image/data-admin-reqs/assignments/about-me-output-img.png"
+                  card-key-takeaway="The 'All About Me' activity gave me an opportunity to express who I am by sharing a photo, my full name, three words that describe me, a personal message for my teacher, and three topics I look forward to learning this year, helping me reflect on my interests and goals."
+                >
                   <img
                     src="../assets/image/data-admin-reqs/assignments/about-me-card.png"
                     class="card-img-top card-img"
@@ -105,11 +114,26 @@
                     words that describe me, a message for my teacher, and three
                     things I'm excited to learn this year.
                   </p>
-                  <a href="#" class="card-link">View More</a>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
                 </div>
               </td>
               <td>
-                <div class="card">
+                <div
+                  class="card"
+                  card-name="Activity #1 - Database Design Challenge"
+                  card-description="This activity focuses on designing a library book database,
+                    performing SQL operations, and identifying appropriate SQL
+                    commands for various scenarios."
+                  card-full-image="../assets/image/data-admin-reqs/activities/activity1-full-img.png"
+                  card-output-image="..."
+                  card-key-takeaway="Lorem Ipsum"
+                >
                   <img
                     src="../assets/image/data-admin-reqs/activities/activity1-card.png"
                     class="card-img-top card-img"
@@ -123,11 +147,25 @@
                     performing SQL operations, and identifying appropriate SQL
                     commands for various scenarios.
                   </p>
-                  <a href="#" class="card-link">View More</a>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
                 </div>
               </td>
               <td>
-                <div class="card">
+                <div
+                  class="card"
+                  card-name="Midterm Quiz #1"
+                  card-description="This midterm quiz consisted of 15 questions, completed
+                    within 26 minutes, and I scored 28 out of 30."
+                  card-full-image="../assets/image/data-admin-reqs/quizzes/midterm-quiz1-full-img.png"
+                  card-output-image="../assets/image/404-img.png"
+                  card-key-takeaway="Lorem Ipsum"
+                >
                   <img
                     src="../assets/image/data-admin-reqs/quizzes/quiz1-card.png"
                     class="card-img-top card-img"
@@ -138,7 +176,13 @@
                     This midterm quiz consisted of 15 questions, completed
                     within 26 minutes, and I scored 28 out of 30.
                   </p>
-                  <a href="#" class="card-link">View More</a>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
                 </div>
               </td>
             </tr>
@@ -146,7 +190,17 @@
             <!-- Row 2 -->
             <tr>
               <td>
-                <div class="card">
+                <div
+                  class="card"
+                  card-name="Assignment #1 - Database Administration"
+                  card-description="This assignment requires writing answers on key database
+                    administration topics, including data security,
+                    availability, quality, and the responsibilities of a data
+                    administrator and DBA."
+                  card-full-image="../assets/image/data-admin-reqs/assignments/assignment1-full-img.png"
+                  card-output-image="..."
+                  card-key-takeaway="Lorem Ipsum"
+                >
                   <img
                     src="../assets/image/data-admin-reqs/assignments/assignment1-card.png"
                     class="card-img-top card-img"
@@ -161,11 +215,26 @@
                     availability, quality, and the responsibilities of a data
                     administrator and DBA.
                   </p>
-                  <a href="#" class="card-link">View More</a>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
                 </div>
               </td>
               <td>
-                <div class="card">
+                <div
+                  class="card"
+                  card-name="Activity #2 - Writing SQL Syntax"
+                  card-description="This activity involves writing SQL syntax for creating and
+                    modifying tables, inserting, updating, and deleting records,
+                    and managing permissions for database operations."
+                  card-full-image="../assets/image/data-admin-reqs/activities/activity2-full-img.png"
+                  card-output-image="..."
+                  card-key-takeaway="Lorem Ipsum"
+                >
                   <img
                     src="../assets/image/data-admin-reqs/activities/activity2-card.png"
                     class="card-img-top card-img"
@@ -177,7 +246,13 @@
                     modifying tables, inserting, updating, and deleting records,
                     and managing permissions for database operations.
                   </p>
-                  <a href="#" class="card-link">View More</a>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
                 </div>
               </td>
               <td>
@@ -210,6 +285,70 @@
         </table>
       </div>
     </div>
+
+    <!-- Modal Structure (Single Modal for All Cards) -->
+    <div
+      class="modal fade"
+      id="requirementModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="requirementModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="requirementModalLabel">Requirement</h5>
+          </div>
+          <div class="modal-body">
+            <h4 id="modal-name"></h4>
+            <p id="modal-description"></p>
+            <img
+              id="modal-full-image"
+              class="img-fluid"
+              alt="Requirement Image"
+            />
+            <h4>Output</h4>
+            <img id="modal-output-image" class="img-fluid" alt="Output Image" />
+            <h4>Key Takeaway</h4>
+            <p id="modal-key-takeaway"></p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // jQuery to update modal content dynamically
+      $(document).ready(function () {
+        // When any card link is clicked
+        $(".card-link").click(function () {
+          // Get the data attributes from the clicked card
+          var card = $(this).closest(".card");
+          console.log(card.data);
+          var name = card.attr("card-name");
+          var description = card.attr("card-description");
+          var image = card.attr("card-full-image");
+          var outputImage = card.attr("card-output-image");
+          var keyTakeaway = card.attr("card-key-takeaway");
+
+          // Update the modal content
+          $("#modal-name").text(name);
+          $("#modal-description").text(description);
+          $("#modal-full-image").attr("src", image);
+          $("#modal-output-image").attr("src", outputImage);
+          $("#modal-key-takeaway").text(keyTakeaway);
+        });
+      });
+    </script>
 
     <!-- Footer -->
     <footer class="footer-section text-center text-light py-4">

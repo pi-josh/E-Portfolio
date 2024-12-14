@@ -91,6 +91,10 @@ body {
   width: 25px;
 }
 
+.navbar-nav {
+  width: 563px;
+}
+
 /* Home Section */
 .home-section-container {
   background: linear-gradient(to bottom, #ffffff, #f0f0f0);
@@ -325,7 +329,6 @@ body {
   width: 25px;
   height: 25px;
 }
-
 
 /* Footer */
 .footer-section {
