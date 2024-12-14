@@ -83,37 +83,382 @@
         <h1 class="midterm-heading">MIDTERM</h1>
         <div class="midterm-content-table-container center-div">
           <table class="midterm-content-table" cellpadding="10" cellspacing="0">
+            <!-- Table Heading -->
             <tr>
               <th class="midterm-content-header">Assignments</th>
               <th class="midterm-content-header">Activities</th>
               <th class="midterm-content-header">Quizzes</th>
             </tr>
+
+            <!-- Row 1 -->
             <tr>
               <td>
-                <div class="card">
-                  <h3 class="card-header">Card 1</h3>
+                <div
+                  class="card"
+                  card-name="About Me"
+                  card-description="This activity lets me introduce myself with a photo, three
+                    words that describe me, a message for my teacher, and three
+                    things I'm excited to learn this year."
+                  card-full-image="../assets/image/web-dev-reqs/assignments/about-me-full-img.png"
+                  card-output-image="../assets/image/web-dev-reqs/assignments/about-me-output-img.png"
+                  card-key-takeaway="The 'All About Me' activity gave me an opportunity to express who I am by sharing a photo, my full name, three words that describe me, a personal message for my teacher, and three topics I look forward to learning this year, helping me reflect on my interests and goals."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/assignments/about-me-card.png"
+                    class="card-img-top card-img"
+                    alt="About Me Card Image"
+                  />
+                  <h3 class="card-header">About Me</h3>
                   <p class="card-description">
-                    Description for Assignments Card.
+                    This activity lets me introduce myself with a photo, three
+                    words that describe me, a message for my teacher, and three
+                    things I'm excited to learn this year.
                   </p>
-                  <a href="#" class="card-link">View More</a>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
                 </div>
               </td>
               <td>
-                <div class="card">
-                  <h3 class="card-header">Card 1</h3>
+                <div
+                  class="card"
+                  card-name="Activity #2 - HTML"
+                  card-description="This activity requires me to create three HTML web pages for
+                    Philippine holidays, including text and images with proper
+                    attributes, and submit the files via a Google Drive link."
+                  card-full-image="../assets/image/web-dev-reqs/activities/activity2-full-image.png"
+                  card-output-image="../assets/image/web-dev-reqs/activities/activity2-output-image.png"
+                  card-key-takeaway="In this activity, I created individual web pages for three Philippine holidays using basic HTML structure, text, and image tags, which helped me practice organizing content, integrating images with proper attributes, and improving my skills in building simple, well-structured web pages."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/activities/activity2-card.png"
+                    class="card-img-top card-img"
+                    alt="Activity #2 - HTML Card Image"
+                  />
+                  <h3 class="card-header">Activity #2 - HTML</h3>
                   <p class="card-description">
-                    Description for Activities Card.
+                    This activity requires me to create three HTML web pages for
+                    Philippine holidays, including text and images with proper
+                    attributes, and submit the files via a Google Drive link.
                   </p>
-                  <a href="#" class="card-link">View More</a>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
                 </div>
               </td>
               <td>
-                <div class="card">
-                  <h3 class="card-header">Card 1</h3>
-                  <p class="card-description">Description for Quizzes Card.</p>
-                  <a href="#" class="card-link">View More</a>
+                <div
+                  class="card"
+                  card-name="WW1 - Internet vs Internet"
+                  card-description="This quiz asked me to share my opinion on whether the
+                    Internet or an Intranet is more beneficial and explain my
+                    choice in three sentences."
+                  card-full-image="../assets/image/web-dev-reqs/quizzes/ww1-full-img.png"
+                  card-output-image="../assets/image/404-img.png"
+                  card-key-takeaway="In this quiz, I compared the benefits of the Internet and Intranet, emphasizing the Internet's vast access to diverse resources and information, while recognizing the importance of verifying accuracy."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/quizzes/ww1-card.png"
+                    class="card-img-top card-img"
+                    alt="WW1 - Intranet vs Internet Card Image"
+                  />
+                  <h3 class="card-header">WW1 - Internet vs Internet</h3>
+                  <p class="card-description">
+                    This quiz asked me to share my opinion on whether the
+                    Internet or an Intranet is more beneficial and explain my
+                    choice in three sentences.
+                  </p>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
                 </div>
               </td>
+            </tr>
+
+            <!-- Row 2 -->
+            <tr>
+              <td>
+                <div
+                  class="card"
+                  card-name="Assignment #1 - Web Development"
+                  card-description="This assignment explores best practices, emerging trends,
+                    backend development, server-side technologies, and the role
+                    of HTML and semantic markup in web development."
+                  card-full-image="../assets/image/web-dev-reqs/assignments/assignment1-full-img.png"
+                  card-output-image="../assets/image/web-dev-reqs/assignments/assignment1-output-img.png"
+                  card-key-takeaway="In this assignment, I explored best practices, emerging trends, and key concepts in web development, including the importance of backend technologies, semantic HTML, and their role in creating secure, accessible, and optimized websites."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/assignments/assignment1-card.png"
+                    class="card-img-top card-img"
+                    alt="Assignment #1 - Web Development Card Image"
+                  />
+                  <h3 class="card-header">Assignment #1 - Web Development</h3>
+                  <p class="card-description">
+                    This assignment explores best practices, emerging trends,
+                    backend development, server-side technologies, and the role
+                    of HTML and semantic markup in web development.
+                  </p>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  class="card"
+                  card-name="Activity #3 - CSS"
+                  card-description="This activity requires me to create a personal portfolio
+                    page using Bootstrap components, including a navigation bar,
+                    carousel, grid layout, table, and cards, ensuring
+                    responsiveness and a visually appealing design."
+                  card-full-image="../assets/image/web-dev-reqs/activities/activity3-full-img.png"
+                  card-output-image="../assets/image/web-dev-reqs/activities/activity3-output-img.png"
+                  card-key-takeaway="In this activity, I built a personal portfolio page using Bootstrap components like Carousel, Grid, Table, and Cards to showcase my skills, projects, and experience, enhancing my understanding of responsive design and integrating Bootstrap for clean, professional layouts."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/activities/activity3-card.png"
+                    class="card-img-top card-img"
+                    alt="Activity #3 - CSS Card Image"
+                  />
+                  <h3 class="card-header">Activity #3 - CSS</h3>
+                  <p class="card-description">
+                    This activity requires me to create a personal portfolio
+                    page using Bootstrap components, including a navigation bar,
+                    carousel, grid layout, table, and cards, ensuring
+                    responsiveness and a visually appealing design.
+                  </p>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  class="card"
+                  card-name="WW2 - Incrementing/Decrementing"
+                  card-description="This quiz required me to complete 2 questions about
+                    incrementing and decrementing using JavaScript within 20
+                    minutes, and I scored 20 out of 20."
+                  card-full-image="../assets/image/web-dev-reqs/quizzes/ww2-full-img.png"
+                  card-output-image="../assets/image/404-img.png"
+                  card-key-takeaway="In this exercise, I successfully demonstrated my understanding of incrementing and decrementing concepts, completing the tasks efficiently and achieving a perfect score of 20 out of 20."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/quizzes/ww2-card.png"
+                    class="card-img-top card-img"
+                    alt="WW2 - Exercises about Incrementing/Decrementing Card Image"
+                  />
+                  <h3 class="card-header">WW2 - Incrementing/Decrementing</h3>
+                  <p class="card-description">
+                    This quiz required me to complete 2 questions about
+                    incrementing and decrementing using JavaScript within 20
+                    minutes, and I scored 20 out of 20.
+                  </p>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
+                </div>
+              </td>
+            </tr>
+
+            <!-- Row 3 -->
+            <tr>
+              <td><div class="card-empty"></div></td>
+              <td>
+                <div
+                  class="card"
+                  card-name="Activity #4 - JavaScript"
+                  card-description="This activity involves solving 10 JavaScript problems using
+                    combined operators to calculate various scenarios such as
+                    total cost, score adjustment, temperature conversion,
+                    inventory management, and more."
+                  card-full-image="../assets/image/web-dev-reqs/activities/activity4-full-img.png"
+                  card-output-image="../assets/image/web-dev-reqs/activities/activity4-output-img.png"
+                  card-key-takeaway="In this activity, I practiced solving real-world problems using JavaScript, focusing on combined operators, calculations, and logical conditions. Through these exercises, I improved my understanding of mathematical operations, loops, conditionals, and how to structure code efficiently to achieve accurate results."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/activities/activity4-card.png"
+                    class="card-img-top card-img"
+                    alt="Activity #4 - JavaScript Card Image"
+                  />
+                  <h3 class="card-header">Activity #4 - JavaScript</h3>
+                  <p class="card-description">
+                    This activity involves solving 10 JavaScript problems using
+                    combined operators to calculate various scenarios such as
+                    total cost, score adjustment, temperature conversion,
+                    inventory management, and more.
+                  </p>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  class="card"
+                  card-name="Quiz #1"
+                  card-description="This quiz required me to complete 15 questions within 20
+                    minutes, and I scored 28 out of 30."
+                  card-full-image="../assets/image/web-dev-reqs/quizzes/quiz1-full-img.png"
+                  card-output-image="../assets/image/404-img.png"
+                  card-key-takeaway="I performed well on Quiz #1, scoring 28 out of 30 within 18 minutes. This result shows that I have a strong understanding of the material, but there’s still room for improvement to achieve a perfect score."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/quizzes/quiz1-card.png"
+                    class="card-img-top card-img"
+                    alt="Quiz #1 Card Image"
+                  />
+                  <h3 class="card-header">Quiz #1</h3>
+                  <p class="card-description">
+                    This quiz required me to complete 15 questions within 20
+                    minutes, and I scored 28 out of 30.
+                  </p>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
+                </div>
+              </td>
+            </tr>
+
+            <!-- Row 4 -->
+            <tr>
+              <td><div class="card-empty"></div></td>
+              <td>
+                <div
+                  class="card"
+                  card-name="Activity #5 - JavaScript Array"
+                  card-description="This activity requires me to write two JavaScript programs
+                    using arrays and do-while loops: one for a fruit selection
+                    menu and another for managing a library of books with
+                    options to view, add, or remove titles."
+                  card-full-image="../assets/image/web-dev-reqs/activities/activity5-full-img.png"
+                  card-output-image="../assets/image/web-dev-reqs/activities/activity5-output-img.png"
+                  card-key-takeaway="In these activities, I learned how to use arrays, do-while loops, and switch statements to build interactive JavaScript programs. The first task reinforced creating menus for user selections with error handling, while the second focused on managing a dynamic list of books with options to view, add, or remove items. These exercises helped me practice logic, user input validation, and program flow control, which are essential for building functional and user-friendly applications."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/activities/activity5-card.png"
+                    class="card-img-top card-img"
+                    alt="Activity #5 - JavaScript Array Card Image"
+                  />
+                  <h3 class="card-header">Activity #5 - JavaScript Array</h3>
+                  <p class="card-description">
+                    This activity requires me to write two JavaScript programs
+                    using arrays and do-while loops: one for a fruit selection
+                    menu and another for managing a library of books with
+                    options to view, add, or remove titles.
+                  </p>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  class="card"
+                  card-name="Quiz #2"
+                  card-description="This quiz required me to complete 20 questions within 30
+                    minutes, and I scored 28 out of 40."
+                  card-full-image="../assets/image/web-dev-reqs/quizzes/quiz2-full-img.png"
+                  card-output-image="../assets/image/404-img.png"
+                  card-key-takeaway="I completed Quiz #2 within 27 minutes and scored 28 out of 40, showing I was able to answer most questions correctly but still have room for improvement. While I didn't see the correct answers, I can use this as motivation to review the material more thoroughly to perform better next time."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/quizzes/quiz2-card.png"
+                    class="card-img-top card-img"
+                    alt="Quiz 2 Card Image"
+                  />
+                  <h3 class="card-header">Quiz #2</h3>
+                  <p class="card-description">
+                    This quiz required me to complete 20 questions within 30
+                    minutes, and I scored 28 out of 40.
+                  </p>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
+                </div>
+              </td>
+            </tr>
+
+            <!-- Row 5 -->
+            <tr>
+              <td><div class="card-empty"></div></td>
+              <td>
+                <div
+                  class="card"
+                  card-name="Activity #6 - JavaScript Functions"
+                  card-description="This activity requires me to write two JavaScript functions:
+                    one to check age and return a corresponding message, and
+                    another to check voting eligibility based on age and
+                    citizenship status."
+                  card-full-image="../assets/image/web-dev-reqs/activities/activity6-full-img.png"
+                  card-output-image="../assets/image/web-dev-reqs/activities/activity6-output-img.png"
+                  card-key-takeaway="In this activity, I learned how to write JavaScript functions to handle conditional logic and validate inputs effectively. The first task taught me how to use conditions to classify age groups, while the second task introduced me to handling multiple parameters and checking data types like numbers and booleans. These exercises helped me practice writing clear and structured functions, improving my problem-solving skills in coding."
+                >
+                  <img
+                    src="../assets/image/web-dev-reqs/activities/activity6-card.png"
+                    class="card-img-top card-img"
+                    alt="Activity #6 - JavaScript Functions Card Image"
+                  />
+                  <h3 class="card-header">
+                    Activity #6 - JavaScript Functions
+                  </h3>
+                  <p class="card-description">
+                    This activity requires me to write two JavaScript functions:
+                    one to check age and return a corresponding message, and
+                    another to check voting eligibility based on age and
+                    citizenship status.
+                  </p>
+                  <a
+                    href="#"
+                    class="card-link"
+                    data-toggle="modal"
+                    data-target="#requirementModal"
+                    >View More</a
+                  >
+                </div>
+              </td>
+              <td><div class="card-empty"></div></td>
             </tr>
           </table>
         </div>
@@ -125,10 +470,86 @@
       <div class="final-heading-container text-center">
         <h1 class="final-heading">FINAL</h1>
       </div>
-      <div class="not-yet-container center-div">
-        <h2 class="not-yet">Not Available Yet</h2>
+      <div class="final-content-table-container center-div">
+        <table class="final-content-table" cellpadding="10" cellspacing="0">
+          <!-- Table Heading -->
+          <tr>
+            <th class="final-content-header">Assignments</th>
+            <th class="final-content-header">Activities</th>
+            <th class="final-content-header">Quizzes</th>
+          </tr>
+          <tr>
+            <td><div class="card-empty"></div></td>
+            <td><div class="card-empty"></div></td>
+            <td><div class="card-empty"></div></td>
+          </tr>
+        </table>
       </div>
     </div>
+
+    <!-- Modal Cards (Single Modal for All Cards) -->
+    <div
+      class="modal fade"
+      id="requirementModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="requirementModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="requirementModalLabel">Requirement</h5>
+          </div>
+          <div class="modal-body">
+            <h4 id="modal-name"></h4>
+            <p id="modal-description"></p>
+            <img
+              id="modal-full-image"
+              class="img-fluid"
+              alt="Requirement Image"
+            />
+            <h4 class="modal-header">Output</h4>
+            <img id="modal-output-image" class="img-fluid" alt="Output Image" />
+            <h4 class="modal-header">Key Takeaway</h4>
+            <p id="modal-key-takeaway"></p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // jQuery to update modal content dynamically
+      $(document).ready(function () {
+        // When any card link is clicked
+        $(".card-link").click(function () {
+          // Get the data attributes from the clicked card
+          var card = $(this).closest(".card");
+          console.log(card.data);
+          var name = card.attr("card-name");
+          var description = card.attr("card-description");
+          var image = card.attr("card-full-image");
+          var outputImage = card.attr("card-output-image");
+          var keyTakeaway = card.attr("card-key-takeaway");
+
+          // Update the modal content
+          $("#modal-name").text(name);
+          $("#modal-description").text(description);
+          $("#modal-full-image").attr("src", image);
+          $("#modal-output-image").attr("src", outputImage);
+          $("#modal-key-takeaway").text(keyTakeaway);
+        });
+      });
+    </script>
 
     <!-- Footer -->
     <footer class="footer-section text-center text-light py-4">
