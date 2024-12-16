@@ -27,26 +27,25 @@ The e-portfolio will include the following pages:
 
 4. **Contact Page**  
    The contact page will provide a way for others to get in touch with me, including:
-   - A contact form for inquiries or feedback from instructors, peers, or potential employers.
-   - Links to my professional email address and LinkedIn profile for easy networking.
+   - Links to my professional email address, Github, Facebook, and LinkedIn profile for easy networking.
 
 ### Section Snapshots  
 
 | **Page**             | **Section**   | **Snapshot**                                | **Description**                                                                 |
 |-----------------------|---------------|---------------------------------------------|---------------------------------------------------------------------------------|
-| Home Page            | Introduction  | ![Home Intro](path/to/home_intro_snapshot.jpg) | A brief introduction to the e-portfolio and its purpose.                        |
-| Web Development      | Midterm       | ![Web Dev Midterm](path/to/web_dev_midterm_snapshot.jpg) | Showcases quizzes, activities, and the midterm project details.                |
-| Web Development      | Final         | ![Web Dev Final](path/to/web_dev_final_snapshot.jpg) | Displays final project details and reflections on skill improvement.           |
-| Data Administration  | Midterm       | ![Data Admin Midterm](path/to/data_admin_midterm_snapshot.jpg) | Includes database activities, quizzes, and midterm challenges.                 |
-| Data Administration  | Final         | ![Data Admin Final](path/to/data_admin_final_snapshot.jpg) | Final exams, activities, and an overview of database skills learned.           |
-| Contact Page         | Contact Form  | ![Contact Page](path/to/contact_page_snapshot.jpg) | Provides a way for others to reach out via form or professional links.          |
+| Home Page            | Home          | ![Home Intro](/assets/documentation/landing-page_home-section.png) | A brief introduction to the e-portfolio and its purpose.                         |
+| Web Development      | Midterm       | ![Web Dev Midterm](/assets/documentation/web-dev-page_midterm-section.png) | Showcases quizzes, activities, and the midterm project details.          |
+| Web Development      | Final         | ![Web Dev Final](/assets/documentation/web-dev-page_final-section.png) | Displays final project details and reflections on skill improvement.         |
+| Data Administration  | Midterm       | ![Data Admin Midterm](/assets/documentation/data-admin-page_midterm-section.png) | Includes database activities, quizzes, and midterm challenges.     |
+| Data Administration  | Final         | ![Data Admin Final](/assets/documentation/data-admin-page_midterm-section.png) | Final exams, activities, and an overview of database skills learned. |
+| Contact Page         | Contact       | ![Contact Page](/assets/documentation/landing-page_contact-section.png) | Provides a way for others to reach out via professional links.              |
 
 ### Design and Functionality  
 The e-portfolio will follow a minimalist design approach, ensuring a clean, professional appearance with a user-friendly experience. The website will be fully responsive, built with Bootstrap to adapt seamlessly across mobile, tablet, and desktop devices. Each section will be easy to navigate using a well-structured menu and layout.
 
 ### Key Features  
 - **Responsive Design**: Using HTML, CSS, and Bootstrap to ensure the e-portfolio looks great on any device.  
-- **Interactive Features**: Including a contact form and downloadable files for activities and exams, making the portfolio more engaging.  
+- **Interactive Features**: Including a contact links and downloadable files for activities and exams, making the portfolio more engaging.  
 - **Visual Appeal**: Adding images, charts, and diagrams to make the content more visually appealing and informative.
 
 ### Final Outcome  
